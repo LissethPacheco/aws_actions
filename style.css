@@ -1,0 +1,130 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #0077cc;
+  color: white;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+.descripcion {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+header h2 {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.integrantes {
+  list-style: none;
+  padding: 0;
+  margin: 10px auto;
+  max-width: 300px;
+}
+
+.integrantes li {
+  background-color: white;
+  color: #333;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.grupo {
+  margin-bottom: 40px;
+}
+
+.grupo h2 {
+  font-size: 22px;
+  color: #0077cc;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #0077cc;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.explicacion {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 28px;
+  font-size: 16px;
+  color: white !important;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 280px;
+  text-align: left;
+}
+
+button i {
+  margin-right: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.openai {
+  background-color: #10a37f;
+  color: white;
+}
+
+.gmail {
+  background-color: #ea4335;
+  color: white;
+}
+
+.railway {
+  background-color: #3e1e68;
+}
+
+.vercel {
+  background-color: #000000;
+}
+
+.heroku {
+  background-color: #6762a6;
+}
+
+.digitalocean {
+  background-color: #0080ff;
+}
+.iaas {
+  background-color: #ff9800; /* Ejemplo naranja fuerte */
+}
+
+#resultado {
+  margin-top: 30px;
+  font-weight: bold;
+  color: #2e7d32;
+  font-size: 18px;
+}

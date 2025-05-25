@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker HTMLffff</title>
+</head>
+<body>
+    <h1>¡Hola desde Docker, Hola Edgar y Ing. Juampa!</h1>
+    <p>Este es un ejemplo deg una página servida con Docker y nginx.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learning to use cloud services</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<header>
+  <h1>Learning to use cloud services</h1>
+  <p class="descripcion">
+    This is a mini-educational platform where you'll learn what cloud services are, how they're classified (SaaS, PaaS, IaaS), and how to interact with them. Here you'll find real-life examples to help you understand their use in the world of modern web development.
+  </p>
+
+  <h2>Group #9</h2>
+  <ul class="members">
+    <li>Lisseth Pacheco</li>
+    <li>Andrés Masapanta</li>
+    <li>Raúl Pazos</li>
+    <li>Katherine Cacuango</li>
+  </ul>
+</header>
+
+<main>
+
+  <section class="grupo">
+    <h2><i class="fas fa-cloud"></i>SaaS (Software as a Service)</h2>
+    <p class="explicacion">
+      SaaS allows software to be accessed over the internet without having to install it locally. Common examples include email tools or artificial intelligence.
+    </p>
+    <button class="openai" onclick="abrirServicio('openai')"><i class="fas fa-robot"></i> OpenAI</button>
+    <button class="gmail" onclick="abrirServicio('gmail')"><i class="fas fa-envelope"></i> Gmail</button>
+  </section>
+
+  <section class="grupo">
+    <h2><i class="fas fa-server"></i>PaaS (Platform as a Service)</h2>
+    <p class="explicacion">
+       PaaS provides an environment for developing, testing, and deploying applications without worrying about the underlying infrastructure.
+    </p>
+    <button class="railway" onclick="abrirServicio('railway')"><i class="fas fa-train"></i> Railway</button>
+    <button class="vercel" onclick="abrirServicio('vercel')"><i class="fas fa-bolt"></i> Vercel</button>
+    <button class="heroku" onclick="abrirServicio('heroku')"><i class="fab fa-cloudversify"></i> Heroku</button>
+    <button class="digitalocean" onclick="abrirServicio('digitalocean')"><i class="fas fa-water"></i> DigitalOcean</button>
+  </section>
+  
+  <section class="grupo">
+    <h2><i class="fas fa-network-wired"></i> IaaS (Infrastructure as a Service)</h2>
+    <p class="explicacion">
+        IaaS offers virtualized computing resources over the internet, such as servers, storage, and networks. AWS EC2 is a common example.
+    </p>
+    <button class="iaas" onclick="window.open('https://aws.amazon.com/es/what-is-cloud-computing/?nc2=h_ql_le_int_cc')">
+     <i class="fab fa-aws"></i> Getting to know IaaS with AWS
+    </button>
+  </section>
+
+  <div id="resultado"></div>
+
+</main>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

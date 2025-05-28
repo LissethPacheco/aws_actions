@@ -55,6 +55,6 @@ jobs:
 
           sudo docker pull lissethpacheco/index:latest
 
-          sudo docker ps -q --filter "name=index" | grep -q . && docker stop index && docker rm index || true
+          sudo docker ps -q --filter "name=index" | grep -q . && sudo docker stop index && sudo docker rm index || true
           
           sudo docker run -d --name index -p 80:80 lissethpacheco/index:latest
